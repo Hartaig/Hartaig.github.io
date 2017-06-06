@@ -1,9 +1,17 @@
 ---
 title: "Hartaig Singh"
 ---
-### Biostatistics MS, Columbia University Mailman School of Public Health
+### Biostatistics MS, Columbia University Mailman School of Public Health  
 
-```{r, out.width=650, out.height=50, echo=FALSE}
+###                                                                     
+  
+###                                                                     
+```{r, fig.align='center',echo=FALSE,out.width=600,out.height=500}
 knitr::include_graphics("IMG_3680.jpg")
 ```
+
+
+
+
+
 
