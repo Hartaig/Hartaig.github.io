@@ -1,1 +1,1 @@
-# hartaigsingh.github.io
+# hartaig.github.io
