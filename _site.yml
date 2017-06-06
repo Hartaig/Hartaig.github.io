@@ -1,10 +1,14 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Hartaig Singh"
   right:
     - text: "About"
       href: about.html
+    - text: "Projects"
+      href: Projects.html
+    - text: "CV"
+      href: CV.html
     - icon: fa-envelope fa-lg
       href: mailto:<hartaigsingh@gmail.com>
     - icon: fa-github fa-lg
