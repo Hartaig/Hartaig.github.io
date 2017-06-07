@@ -9,6 +9,8 @@ navbar:
       href: Projects.html
     - text: "CV"
       href: CV.html
+    - text: "Music"
+      href: Music.html
     - icon: fa-envelope fa-lg
       href: mailto:<hartaigsingh@gmail.com>
     - icon: fa-github fa-lg

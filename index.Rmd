@@ -10,6 +10,33 @@ title: "Hartaig Singh"
 knitr::include_graphics("IMG_3680.jpg")
 ```
 
+###  
+
+###  
+
+
+### Education
+* MS Biostatistics (Sept 2016 - May 2018) Columbia University Mailman School of Public Health
+* BS Applied Mathematics & Statistics (Aug 2012 - May 2016) Stony Brook University
+    + Minor Jazz Music
+
+### Current Positions
+* June 12th 2017 - Present, IT Admin Summer Intern, Northwell Health
+* May 2017 - Present, Data Analyst, Columbia University School of Social Work
+* Sept 2016 - Present, Statistics Tutor, Columbia University Athletics Department          
+
+### Industry and Research Interests
+* Machine Learning applications to Public Health & Policy
+* Data Mining
+* Regression Analysis
+* Data consulting
+
+### Hobbies
+* Music enthusiast
+* DJ and electronic music producer
+* Experienced jazz guitarist
+* Playing basketball
+
 
 
 
