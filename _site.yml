@@ -14,7 +14,9 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<hartaigsingh@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<hartaig>/
+      href: https://github.com/Hartaig
+    - icon: ion-social-linkedin
+      href: https://www.linkedin.com/in/hartaig-singh-90227b127/
 output:
   html_document:
     theme: sandstone
