@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -162,6 +165,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -217,10 +315,25 @@ $(document).ready(function () {
 </div>
 
 
-<p><a href="C:\Users\Hartaig%20Singh\Documents\Linear%20Regression\Final%20Project\Final_Project.pdf">PDF</a></p>
+<div id="section" class="section level2">
+<h2>2017</h2>
+<p><a href="https://drive.google.com/file/d/0B7ci8QYHx8-UUWRDRlF1Uy16SFE/view">Statistical Investigation of Gender Discrimination at Houston College of Medicine</a></p>
+<p><a href="https://drive.google.com/file/d/0B7ci8QYHx8-UZ0w4MnZDRTVDV0U/view">Life Expectancy Across the United States Regression Analysis in R</a></p>
+<p><a href="https://drive.google.com/file/d/0B7ci8QYHx8-UdHozdWFqNGY5ejA/view">Heart Disease Patients and Commercial Properties Regression Analysis in R</a></p>
+<p><a href="https://drive.google.com/file/d/0B7ci8QYHx8-UNm0tRnhPTExTNWs/view">EM Algorithm Allele Frequency Predictions</a></p>
+</div>
+<div id="and-before" class="section level2">
+<h2>2016 and Before</h2>
+<p><a href="https://docs.google.com/document/d/1HTf2RDTWlPaDWeCiuuwpMoVpFXxSXOd8syHoXkqHSPs/edit?usp=sharing">Parallel Distribution of Data in C++</a></p>
+<p><a href="https://docs.google.com/document/d/1llM7_5GuyTtYixj6ARdphpjwepsUQmQ5b1f9kHx3GtY/edit?usp=sharing">Neural Spike Trains and Perceptron Learning</a></p>
+<p><a href="https://docs.google.com/document/d/1FalX2KptsJrbECuWZUuuFjkSyrufVOCVqd-OfDTftig/edit?usp=sharing">Deterministic and Stochastic Models of Phage Lysis/Lysogeny Decision Networks</a></p>
+<p><a href="http://unitedsikhs.org/globalconference/resources/GlobalSikhCivil&amp;HumanRightsReport2010.pdf">2010 Global Sikh Civil Rights Report (Contributing Author pg. 3 for Spain pg. 112)</a></p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 

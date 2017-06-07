@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -162,6 +165,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -217,10 +315,54 @@ $(document).ready(function () {
 </div>
 
 
+<p>I received my Bachelors in Applied Mathematics &amp; Statistics with a minor jazz music in May 2016 from Stony Brook University. I am currently pursuing a Masters in Biostatistcs from Columbia University Mailman School of Public Health. My research interests and skills include consumer behavior modeling, quantitative psychlogy, and machine learning &amp; data mining applications to public health and policy. I have extensive programming experience in R, SAS, and MATLAB. Upon graduation in May 2018 I plan to pursue a PhD or enter the industry utilizing and enhanching my statistical methodology skills.</p>
+<p>I’m a curious and self-driven individual who loves the surprise of discovery through research and data. My hobbies include playing jazz guitar, basketball, DJ, and electronic music production. I am a habitual reader with particular interests in human behavior, social psycology, evolutionary based psycology, religious &amp; political pyscology and the brain.</p>
+<div id="favorite-books" class="section level3">
+<h3>Favorite Books</h3>
+<ul>
+<li><a href="https://www.amazon.com/Top-Dog-Science-Winning-Losing/dp/1455515140/ref=sr_1_3?ie=UTF8&amp;qid=1496870414&amp;sr=8-3&amp;keywords=top+dog">Top Dog: The Science of Winning and Losing</a></li>
+<li><a href="https://www.amazon.com/Power-Others-Pressure-Groupthink-Everything/dp/1780746539/ref=sr_1_2?ie=UTF8&amp;qid=1496870536&amp;sr=8-2&amp;keywords=the+power+of+others">The Power of Others</a></li>
+<li><a href="https://www.amazon.com/Riveted-Science-Movies-Religion-Universe/dp/113727901X/ref=sr_1_1?ie=UTF8&amp;qid=1496870578&amp;sr=8-1&amp;keywords=rivited">Riveted</a></li>
+<li><a href="https://www.amazon.com/gp/product/143914995X/ref=oh_aui_detailpage_o09_s00?ie=UTF8&amp;psc=1">The Lessons of History</a></li>
+<li><a href="https://www.amazon.com/gp/product/1931722528/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">Today Matters</a></li>
+</ul>
+</div>
+<div id="favorite-artists" class="section level3">
+<h3>Favorite Artists</h3>
+<ul>
+<li>Pink Floyd</li>
+<li>Joe Pass</li>
+<li>Duke Ellington</li>
+<li>RL Grime</li>
+<li>Tujamo</li>
+<li>Kendrick Lamar</li>
+</ul>
+</div>
+<div id="favorite-movies" class="section level3">
+<h3>Favorite Movies</h3>
+<ul>
+<li>Good Will Hunting</li>
+<li>Pursuit of Happyness</li>
+<li>Interstellar</li>
+<li>Braveheart</li>
+<li>Office Space</li>
+</ul>
+</div>
+<div id="favorite-tv-shows" class="section level3">
+<h3>Favorite TV Shows</h3>
+<ul>
+<li>Bojack Horseman</li>
+<li>Breaking Bad</li>
+<li>Silicon Valley</li>
+<li>Billions</li>
+<li>Suits</li>
+</ul>
+</div>
 
 
 
-
+</div>
+</div>
 
 </div>
 

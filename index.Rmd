@@ -30,12 +30,15 @@ knitr::include_graphics("IMG_3680.jpg")
 * Data Mining
 * Regression Analysis
 * Data consulting
+* Quantitative Psycology 
+* Consumer Behavior Modeling
 
 ### Hobbies
 * Music enthusiast
 * DJ and electronic music producer
 * Experienced jazz guitarist
 * Playing basketball
+* Reading for leisure
 
 
 

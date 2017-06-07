@@ -1,5 +1,25 @@
 ---
 title: "Projects"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
+## 2017
+[Statistical Investigation of Gender Discrimination at Houston College of Medicine](https://drive.google.com/file/d/0B7ci8QYHx8-UUWRDRlF1Uy16SFE/view)  
 
-[PDF](C:\Users\Hartaig Singh\Documents\Linear Regression\Final Project\Final_Project.pdf)
+[Life Expectancy Across the United States Regression Analysis in R](https://drive.google.com/file/d/0B7ci8QYHx8-UZ0w4MnZDRTVDV0U/view)
+
+[Heart Disease Patients and Commercial Properties Regression Analysis in R](https://drive.google.com/file/d/0B7ci8QYHx8-UdHozdWFqNGY5ejA/view)
+
+[EM Algorithm Allele Frequency Predictions](https://drive.google.com/file/d/0B7ci8QYHx8-UNm0tRnhPTExTNWs/view)
+
+
+## 2016 and Before
+[Parallel Distribution of Data in C++](https://docs.google.com/document/d/1HTf2RDTWlPaDWeCiuuwpMoVpFXxSXOd8syHoXkqHSPs/edit?usp=sharing)
+
+[Neural Spike Trains and Perceptron Learning](https://docs.google.com/document/d/1llM7_5GuyTtYixj6ARdphpjwepsUQmQ5b1f9kHx3GtY/edit?usp=sharing)
+
+[Deterministic and Stochastic Models of Phage Lysis/Lysogeny Decision Networks](https://docs.google.com/document/d/1FalX2KptsJrbECuWZUuuFjkSyrufVOCVqd-OfDTftig/edit?usp=sharing)
+
+[2010 Global Sikh Civil Rights Report (Contributing Author pg. 3 for Spain pg. 112)](http://unitedsikhs.org/globalconference/resources/GlobalSikhCivil&HumanRightsReport2010.pdf)

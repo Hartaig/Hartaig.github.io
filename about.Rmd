@@ -1,4 +1,41 @@
 ---
 title: "About"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
+I received my Bachelors in Applied Mathematics & Statistics with a minor jazz music in May 2016 from Stony Brook University. I am currently pursuing a Masters in Biostatistcs from Columbia University Mailman School of Public Health. My research interests and skills include consumer behavior modeling, quantitative psychlogy, and machine learning & data mining applications to public health and policy. I have extensive programming experience in R, SAS, and MATLAB. Upon graduation in May 2018 I plan to pursue a PhD or enter the industry utilizing and enhanching my statistical methodology skills.   
+
+I'm a curious and self-driven individual who loves the surprise of discovery through research and data. My hobbies include playing jazz guitar, basketball, DJ, and electronic music production. I am a habitual reader with particular interests in human behavior, social psycology, evolutionary based psycology, religious & political pyscology and the brain. 
+
+### Favorite Books
+* [Top Dog: The Science of Winning and Losing](https://www.amazon.com/Top-Dog-Science-Winning-Losing/dp/1455515140/ref=sr_1_3?ie=UTF8&qid=1496870414&sr=8-3&keywords=top+dog)
+* [The Power of Others](https://www.amazon.com/Power-Others-Pressure-Groupthink-Everything/dp/1780746539/ref=sr_1_2?ie=UTF8&qid=1496870536&sr=8-2&keywords=the+power+of+others)
+* [Riveted](https://www.amazon.com/Riveted-Science-Movies-Religion-Universe/dp/113727901X/ref=sr_1_1?ie=UTF8&qid=1496870578&sr=8-1&keywords=rivited)
+* [The Lessons of History](https://www.amazon.com/gp/product/143914995X/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1)
+* [Today Matters](https://www.amazon.com/gp/product/1931722528/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+
+
+### Favorite Artists
+* Pink Floyd
+* Joe Pass
+* Duke Ellington
+* RL Grime
+* Tujamo
+* Kendrick Lamar
+
+### Favorite Movies
+* Good Will Hunting
+* Pursuit of Happyness
+* Interstellar
+* Braveheart
+* Office Space
+
+### Favorite TV Shows
+* Bojack Horseman
+* Breaking Bad
+* Silicon Valley
+* Billions
+* Suits

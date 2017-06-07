@@ -1,5 +1,19 @@
 ---
 title: "Music"
 ---
+###  
+
+###  
 
 
+```{r, fig.align='center',echo=FALSE,out.width=400,out.height=400}
+knitr::include_graphics("GuitarPic.jpg")
+```
+
+### 
+
+### 
+
+
+### Check me out on Soundcloud!
+[It Don't Mean A Thing if it Ain't Got That Swing Jazz Improvisation Cover](https://soundcloud.com/hartaig-singh/it-dont-mean-a-thing)
