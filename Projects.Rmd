@@ -15,7 +15,7 @@ output:
 [EM Algorithm Allele Frequency Predictions](https://drive.google.com/file/d/0B7ci8QYHx8-UNm0tRnhPTExTNWs/view)
 
 
-## 2016 and Before
+## 2016 
 [Parallel Distribution of Data in C++](https://docs.google.com/document/d/1HTf2RDTWlPaDWeCiuuwpMoVpFXxSXOd8syHoXkqHSPs/edit?usp=sharing)
 
 [Neural Spike Trains and Perceptron Learning](https://docs.google.com/document/d/1llM7_5GuyTtYixj6ARdphpjwepsUQmQ5b1f9kHx3GtY/edit?usp=sharing)
