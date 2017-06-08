@@ -1,18 +1,15 @@
 ---
 title: "Hartaig Singh"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
-### Biostatistics MS, Columbia University Mailman School of Public Health  
+**Biostatistics MS, Columbia University Mailman School of Public Health**  
 
-###                                                                     
-  
-###                                                                     
 ```{r, fig.align='center',echo=FALSE,out.width=600,out.height=500}
 knitr::include_graphics("IMG_3680.jpg")
 ```
-
-###  
-
-###  
 
 
 ### Education
@@ -23,7 +20,19 @@ knitr::include_graphics("IMG_3680.jpg")
 ### Current Positions
 * June 12th 2017 - Present, IT Admin Summer Intern, Northwell Health
 * May 2017 - Present, Data Analyst, Columbia University School of Social Work
-* Sept 2016 - Present, Statistics Tutor, Columbia University Athletics Department          
+* Sept 2016 - Present, Statistics Tutor, Columbia University Athletics Department 
+
+### Relevent Courework
+* Linear Regression Models
+* Statistical Computing
+* Categorical Data Analysis
+* Statistical Inference
+* Generalized Linear Models
+* Data Mining & Machine Learning
+* Survival Analysis
+* Longitudinal Data Analysis
+* Design of Experiments
+* Randomized Clinical Trials
 
 ### Industry and Research Interests
 * Machine Learning applications to Public Health & Policy
