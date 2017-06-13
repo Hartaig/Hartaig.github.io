@@ -6,9 +6,9 @@ output:
     toc_float: true
 ---
 
-I received my Bachelors in Applied Mathematics & Statistics with a minor jazz music in May 2016 from Stony Brook University. I am currently pursuing a Masters in Biostatistcs from Columbia University Mailman School of Public Health. My research interests and skills include consumer behavior modeling, quantitative psychlogy, and machine learning & data mining applications to public health and policy. I have extensive programming experience in R, SAS, and MATLAB. Upon graduation in May 2018 I plan to pursue a PhD or enter the industry utilizing and enhanching my statistical methodology skills.   
+I received my Bachelors in Applied Mathematics & Statistics with a minor jazz music in May 2016 from Stony Brook University. I am currently pursuing a Masters in Biostatistics from Columbia University Mailman School of Public Health. My research interests and skills include consumer behavior modeling, quantitative psychology, and machine learning & data mining applications to public health and policy. I have extensive programming experience in R, SAS, and MATLAB. Upon graduation in May 2018 I plan to pursue a PhD or enter the industry utilizing and enhanching my statistical methodology skills.   
 
-I'm a curious and self-driven individual who loves the surprise of discovery through research and data. My hobbies include playing jazz guitar, basketball, DJ, and electronic music production. I am a habitual reader with particular interests in human behavior, social psycology, evolutionary based psycology, religious & political pyscology and the brain. 
+I'm a curious and self-driven individual who loves the surprise of discovery through research and data. My hobbies include playing jazz guitar, basketball, DJ, and electronic music production. I am a habitual reader with particular interests in human behavior, social psychology, evolutionary based psychology, religious & political psychology and the brain. 
 
 ### Favorite Books
 * [Top Dog: The Science of Winning and Losing](https://www.amazon.com/Top-Dog-Science-Winning-Losing/dp/1455515140/ref=sr_1_3?ie=UTF8&qid=1496870414&sr=8-3&keywords=top+dog)
