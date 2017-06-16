@@ -39,7 +39,7 @@ knitr::include_graphics("IMG_3680.jpg")
 * Data Mining
 * Regression Analysis
 * Data consulting
-* Quantitative Psycology 
+* Healthcare Analytics 
 * Consumer Behavior Modeling
 
 ### Hobbies
