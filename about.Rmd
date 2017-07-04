@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-```{r, echo=FALSE,out.width=400,out.height=300}
+```{r, echo=FALSE,out.width=300,out.height=300}
 knitr::include_graphics("IMG_3856.jpg")
 ```
 
