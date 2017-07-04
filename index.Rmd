@@ -7,7 +7,7 @@ output:
 ---
 **Biostatistics MS, Columbia University Mailman School of Public Health**  
 
-```{r, fig.align='center',echo=FALSE,out.width=600,out.height=500}
+```{r, fig.align='center',echo=FALSE,out.width=500,out.height=500}
 knitr::include_graphics("IMG_3680.jpg")
 ```
 
