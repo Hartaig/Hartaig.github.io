@@ -17,9 +17,9 @@ knitr::include_graphics("IMG_3680.jpg")
 * BS Applied Mathematics & Statistics (Aug 2012 - May 2016) Stony Brook University
     + Minor Jazz Music
 
-### Current Positions
-* June 12th 2017 - Present, Data Analytics and Strategy Intern, Northwell Health
-* May 2017 - Present, Data Analyst, Columbia University School of Social Work
+### Selected Positions
+* June 12th 2017 - August 18th, Data Analytics and Strategy Intern, Northwell Health
+* Sept 2017 - Present, Data Analysis for Social Sciences TA, Columbia University Graduate School of Arts and Sciences
 * Sept 2016 - Present, Statistics Tutor, Columbia University Athletics Department 
 
 ### Relevent Courework
