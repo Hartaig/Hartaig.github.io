@@ -10,9 +10,9 @@ output:
 knitr::include_graphics("IMG_3856.jpg")
 ```
 
-I received my Bachelors in Applied Mathematics & Statistics with a minor in jazz music in May 2016 from Stony Brook University. I am currently pursuing a Masters in Biostatistics from Columbia University Mailman School of Public Health. My research interests and skills include consumer behavior modeling, patient data analytics, and machine learning & data mining applications to healthcare. I have extensive programming experience in R, SAS, and MATLAB. Upon graduation in May 2018 I plan to pursue a PhD or enter the industry utilizing and enhanching my statistical methodology skills.   
+I received my Bachelors in Applied Mathematics & Statistics with a minor in jazz music in May 2016 from Stony Brook University. I am currently pursuing a Masters in Biostatistics from Columbia University Mailman School of Public Health. My research interests and skills include patient data analytics, and machine learning & data mining applications to healthcare. I have extensive programming experience in R, SAS, SQL, and MATLAB.    
 
-I'm a curious and ambitious individual who loves the surprise of discovery through research and data. My hobbies include playing jazz guitar, basketball, DJ, and electronic music production. I am a habitual reader with particular interests in human behavior, social psychology, evolutionary based psychology, religious & political psychology and the brain. 
+I'm a boundlessly curious and ambitious individual who loves the surprise of discovery through research and data. My hobbies include playing jazz guitar, basketball, DJ, and electronic music production. I am a habitual reader with particular interests in human behavior, social psychology, evolutionary psychology, moral psychology, religion & politics, and the brain. 
 
 
 
@@ -27,9 +27,8 @@ I'm a curious and ambitious individual who loves the surprise of discovery throu
 
 ### Favorite Artists
 * Pink Floyd
-* Joe Pass
 * Duke Ellington
-* RL Grime
+* Deadmau5
 * Judas Priest
 * Kendrick Lamar
 

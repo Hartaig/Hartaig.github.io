@@ -19,12 +19,24 @@ knitr::include_graphics("IMG_3680.jpg")
 
 ### Selected Positions
 * June 12th 2017 - August 18th, Data Analytics and Strategy Intern, Northwell Health
+    + Built predictive model to discover insight into strong indicators of patient length of stay such       as age, vitals, insurance 
+    + Methods used: Logistic regression, negative binomial regression, lasso regression 
+    + Using the model: Odds of a length of stay greater than 5 days is 30% higher for a patient who is       10 years older 
+    + Machine learning, statistical modeling and data visualization in R, data collection with              Microsoft SQL servers 
+    + Presented and intuitively explained results to higher-ups at board meetings
+    + Frequent collaboration with clinicians and data architects to collect data and understand dat
 * Sept 2017 - Present, Data Analysis for Social Sciences TA, Columbia University Graduate School of Arts and Sciences
 * Sept 2016 - Present, Statistics Tutor, Columbia University Athletics Department 
 
+### Programming Languages
+* R
+* SQL
+* SAS
+* MATLAB
+
 ### Relevent Courework
 * Linear Regression Models
-* Statistical Computing
+* Advanced Statistical Computing
 * Categorical Data Analysis
 * Statistical Inference
 * Generalized Linear Models
@@ -32,16 +44,15 @@ knitr::include_graphics("IMG_3680.jpg")
 * Survival Analysis
 * Longitudinal Data Analysis
 * Design of Experiments
-* Randomized Clinical Trials
+* Epidemiology
 
 ### Industry and Research Interests
-* Machine Learning 
 * Data Mining
-* Regression Analysis
-* Data consulting
-* Healthcare Analytics 
+* Regression Modeling
+* Data Consulting
+* Big Data Healthcare Analytics 
 * Patient Data Analytics
-* Consumer Behavior Modeling
+* Predictive Modeling
 
 ### Hobbies
 * Music enthusiast
